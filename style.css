@@ -1,4 +1,4 @@
-fonts import @font-face {
+@font-face {
   font-family: "Genericons";
   src:
     url("https://g.newsweek.com/www/fonts/Genericons.eot?#iefix")
@@ -84,14 +84,16 @@ h2 {
   color: #fff;
 }
 
-.sing-in-hdr {
+.sing-in-hdr,
+.sing-in-hdr:hover {
   font-weight: 700;
   color: #fff;
   padding: 0 10px 0 12px;
   font-size: 18px;
 }
 
-.suscribe-hdr {
+.suscribe-hdr,
+.suscribe-hdr:hover {
   background-color: #fff;
   color: #f72210;
   font-weight: 700;
@@ -99,8 +101,18 @@ h2 {
   font-size: 18px;
 }
 
+.sing-in-hdr:hover,
+.suscribe-hdr:hover {
+  text-decoration: none;
+}
+
 .polygon-arrow-right {
   margin-left: 15px;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #f72210;
 }
 
 /* .nav {
@@ -116,13 +128,47 @@ h2 {
 
 article h3 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 23px;
 }
 
 article p {
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+article h3:hover {
+  color: #000;
+}
+
+article a {
+  color: #000;
+}
+
+article figcaption a {
+  font-weight: 700;
+  padding: 6px 15px 7px;
+  position: absolute;
+  bottom: 0;
+  color: #f72210;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #f72210;
+}
+
+article figcaption a:hover {
+  font-weight: 700;
+  padding: 6px 15px 7px;
+  position: absolute;
+  bottom: 0;
+  color: #f72210;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
 }
 
 figure {
@@ -134,23 +180,55 @@ figure {
   height: auto;
 }
 
-figcaption {
-  font-weight: 700;
-  padding: 6px 15px 7px;
-  position: absolute;
-  bottom: 0;
-  color: #f72210;
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.opinion h4 {
+.opinion h4,
+.more-stories h4 {
   font-size: 17px;
   font-weight: 700;
   color: #000;
 }
 
+.opinion h4:hover {
+  color: #f72210;
+}
+
 .opinion {
   color: #555;
   font-weight: 700;
+}
+
+.opinion div a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.more-stories {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.more-stories .img-fluid {
+  width: 135px;
+  float: left;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .more-stories .img-fluid {
+    min-width: 35%;
+    float: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .sing-in-hdr,
+  .suscribe-hdr {
+    font-size: 14px;
+  }
+
+  .suscribe-hdr {
+    padding: 0 2px;
+  }
+
+  .polygon-arrow-right {
+    display: none;
+  }
 }
