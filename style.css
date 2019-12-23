@@ -1,0 +1,156 @@
+fonts import @font-face {
+  font-family: "Genericons";
+  src:
+    url("https://g.newsweek.com/www/fonts/Genericons.eot?#iefix")
+    format("embedded-opentype"),
+    url("https://g.newsweek.com/www/fonts/Genericons.woff") format("woff"),
+    url("https://g.newsweek.com/www/fonts/Genericons.ttf") format("truetype"),
+    url("https://g.newsweek.com/www/fonts/Genericons.svg#Genericons")
+    format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src:
+    local("loraregular"),
+    url("https://g.newsweek.com/www/fonts/lora-regular-webfont.woff2")
+    format("woff2"),
+    url("https://g.newsweek.com/www/fonts/lora-regular-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src:
+    local("roboto_condensedregular"),
+    url("https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff2")
+    format("woff2"),
+    url("https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src:
+    local("roboto_condensedbold"),
+    url("https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff2")
+    format("woff2"),
+    url("https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+* {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+main,
+header {
+  background-color: #fff;
+}
+
+h2 {
+  color: #a0a0a0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #f72210 !important;
+}
+
+.container-fluid {
+  max-width: 1310px;
+  min-width: 318px;
+}
+
+.date-hdr {
+  padding: 0 10px 0 0;
+  color: #fff;
+}
+
+.sing-in-hdr {
+  font-weight: 700;
+  color: #fff;
+  padding: 0 10px 0 12px;
+  font-size: 18px;
+}
+
+.suscribe-hdr {
+  background-color: #fff;
+  color: #f72210;
+  font-weight: 700;
+  padding: 0 10px 0 12px;
+  font-size: 18px;
+}
+
+.polygon-arrow-right {
+  margin-left: 15px;
+}
+
+/* .nav {
+  padding: 15px 180px 15px 0;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: large;
+  color: #000;
+  padding: auto 0;
+} */
+
+article h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+article p {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+figure {
+  position: relative;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-weight: 700;
+  padding: 6px 15px 7px;
+  position: absolute;
+  bottom: 0;
+  color: #f72210;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.opinion h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+
+.opinion {
+  color: #555;
+  font-weight: 700;
+}
