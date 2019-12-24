@@ -92,8 +92,8 @@ h2 {
   font-size: 18px;
 }
 
-.suscribe-hdr,
-.suscribe-hdr:hover {
+.subscribe-hdr,
+.subscribe-hdr:hover {
   background-color: #fff;
   color: #f72210;
   font-weight: 700;
@@ -102,7 +102,7 @@ h2 {
 }
 
 .sing-in-hdr:hover,
-.suscribe-hdr:hover {
+.subscribe-hdr:hover {
   text-decoration: none;
 }
 
@@ -142,6 +142,21 @@ article p {
   font-weight: 400;
   font-size: 20px;
   color: #272727;
+}
+
+.culture-and-travel button {
+  border: none;
+  font-family: "Helveltica", sans-serif;
+  font-size: 13px;
+  color: black;
+  background-color: #c2d4d7;
+  display: block;
+  margin-top: 1em;
+}
+
+.culture-and-travel button:hover {
+  background-color: #424849;
+  color: #c2d4d7;
 }
 
 article h3:hover {
@@ -231,6 +246,24 @@ figure {
   float: left;
 }
 
+.slideshow a {
+  background:
+    url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    center no-repeat;
+  background-size: contain;
+  font-size: 20px;
+  font-weight: 700;
+  height: 52px;
+  width: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+  padding-left: 23px;
+  margin-left: -3px;
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .more-stories .img-fluid {
     min-width: 35%;
@@ -240,11 +273,11 @@ figure {
 
 @media (max-width: 575.98px) {
   .sing-in-hdr,
-  .suscribe-hdr {
+  .subscribe-hdr {
     font-size: 14px;
   }
 
-  .suscribe-hdr {
+  .subscribe-hdr {
     padding: 0 2px;
   }
 
