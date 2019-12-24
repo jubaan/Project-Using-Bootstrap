@@ -137,6 +137,13 @@ article p {
   font-size: 14px;
 }
 
+.culture-and-travel h3 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #272727;
+}
+
 article h3:hover {
   color: #000;
 }
@@ -178,6 +185,19 @@ figure {
 .img-fluid {
   width: 100%;
   height: auto;
+}
+
+.culture-and-travel {
+  background-color: #f4f5f7;
+}
+
+.culture-and-travel div {
+  font-size: 15px;
+  color: #8d8e95;
+}
+
+.culture-and-travel h2 {
+  color: #7b7c84;
 }
 
 .opinion h4,
