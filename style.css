@@ -84,7 +84,7 @@ h2 {
 }
 
 .logo-container {
-  width: 500px;
+  width: 395px;
 }
 
 .bg-primary {
@@ -131,8 +131,7 @@ h2 {
   height: 54px;
   background-color: #f72210;
   z-index: 99999;
-  padding: 0;
-  margin: 0;
+  padding: 15px auto;
 }
 
 .navbar2 {
@@ -140,24 +139,53 @@ h2 {
 }
 
 .nav {
-  padding: 15px 0;
+  position: relative;
 }
 
 .nav-item {
-  height: 10px;
-  margin-top: -17px;
+  list-style: none;
+  height: auto;
 }
 
 .nav-link {
   font-weight: 700;
   font-size: large;
   color: #000;
+  font-size: 21px;
   padding: 0;
   margin: 0;
 }
 
 .nav-link:hover {
   color: #f72210;
+}
+
+#search {
+  background:
+    url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+      no-repeat,
+    #fff;
+  background-size: 16px;
+  background-position: right;
+  border: 1px solid gray;
+  text-align: right;
+  padding-right: 30px;
+  border: none;
+  width: 120px;
+}
+
+#search:focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+  height: 54px;
+}
+
+#search:focus::placeholder {
+  opacity: 0;
 }
 
 article h3 {
@@ -472,6 +500,29 @@ figure {
   margin-right: 20px;
 }
 
+footer {
+  background-color: #fff;
+  height: 198px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer .nav-link {
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sm-footer-icons {
+  color: #666;
+  font-weight: 400;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .more-stories .img-fluid {
     min-width: 35%;
@@ -499,5 +550,12 @@ figure {
 
   .img-box {
     height: 30vh;
+  }
+}
+
+@media (max-width: 358px) {
+  .sing-in-hdr,
+  .subscribe-hdr {
+    display: none !important;
   }
 }
