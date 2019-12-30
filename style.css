@@ -492,12 +492,44 @@ figure {
 
 .subscribe-container {
   background-color: #f4f5f6;
-  padding: 20px;
-  height: 301px;
 }
 
-.subscribe-container * {
-  margin-right: 20px;
+.img-subscribe {
+  min-width: 170px;
+}
+
+.image-column {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.image-newsletter {
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+    center no-repeat;
+  background-size: cover;
+  max-width: 300px;
+  height: 260px;
+}
+
+.subs-and-newsletter h2 {
+  color: #f72210;
+}
+
+.subs-and-newsletter h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
+}
+
+.subs-and-newsletter button {
+  border: none;
+  background-color: #f72210;
+  padding: 5px 10px 7px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px 0 7px;
 }
 
 footer {
@@ -505,12 +537,15 @@ footer {
   height: 198px;
 }
 
+.footer-logo {
+  min-width: 236px;
+}
+
 .footer li {
   list-style: none;
 }
 
 .footer .nav-link {
-  padding-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -521,16 +556,39 @@ footer {
   font-weight: 400;
   margin: 0 5px;
   text-decoration: none;
+  min-width: 159px;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .more-stories .img-fluid {
-    min-width: 35%;
-    float: left;
+@media (max-width: 767px) {
+  .subscribe-container {
+    background-color: #f4f5f6;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+    padding: 0 !important;
   }
 
-  .img-box {
-    height: 60vh;
+  .newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0s;
+  }
+
+  .image-column {
+    padding-right: -555px;
+    margin-right: -15px;
+  }
+
+  .image-newsletter {
+    max-width: 100%;
+  }
+
+  .image-column {
+    padding: 0;
   }
 }
 
@@ -550,6 +608,11 @@ footer {
 
   .img-box {
     height: 30vh;
+  }
+
+  .social-media-container {
+    display: flex;
+    justify-content: flex-start !important;
   }
 }
 
