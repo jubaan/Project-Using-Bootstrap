@@ -1,53 +1,37 @@
-# Project Name
+# Project: Using Bootstrap
 
-> One paragraph statement about the project.
+In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
 
-![screenshot](./app_screenshot.png)
+The project had the ojective of learning the structure, elements and fuctions of Bootstrap and then use them to set up the responsive layout of a website and cloning the Newsweek website.
 
-Additional description about the project and its features.
+With a mobile first approach I was able to set up the main sections and their responsive changes to different viewport sizes also I was able to mimic all the changes that each section had with every change of the viewport.
+
+Read more about the project [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap?ref=lnav).
+
+Original Website
+
+![screenshot](./assets/img/Original_Newsweek.jpg)
+
+My solution
+
+![screenshot](./assets/img/Clone_Newsweek.jpg)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 & CSS3,
+- BOOTSTRAP
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://raw.githack.com/jubaan/Project-Using-Bootstrap/newsweek-bootstrap-clone/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Julio Añoveros**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jubaan](https://github.com/jubaan)
+- Twitter: [@AnoverosJulio](https://twitter.com/AnoverosJulio)
+- Linkedin: [linkedin](https://www.linkedin.com/in/julio-a%C3%B1overos-b987a8a/)
 
 ## 🤝 Contributing
 
@@ -59,12 +43,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/jubaan/Project-Using-Bootstrap/blob/master/LICENSE) licensed.
