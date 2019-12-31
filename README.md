@@ -2,11 +2,19 @@
 
 In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
 
+The project had the ojective of learning the structure, elements and fuctions of Bootstrap and then use them to set up the responsive layout of a website and cloning the Newsweek website.
+
+With a mobile first approach I was able to set up the main sections and their responsive changes to different viewport sizes also I was able to mimic all the changes that each section had with every change of the viewport.
+
 Read more about the project [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap?ref=lnav).
 
-![screenshot](./app_screenshot.png)
+Original Website
 
-Additional description about the project and its features.
+![screenshot](./assets/img/Original_Newsweek.jpg)
+
+My solution
+
+![screenshot](./assets/img/Clone_Newsweek.jpg)
 
 ## Built With
 
@@ -15,7 +23,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/jubaan/Project-Using-Bootstrap/newsweek-bootstrap-clone/index.html)
 
 ## Authors
 
