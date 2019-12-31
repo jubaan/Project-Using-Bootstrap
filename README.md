@@ -23,7 +23,7 @@ My solution
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jubaan/Project-Using-Bootstrap/newsweek-bootstrap-clone/index.html)
+[Live Demo Link](https://raw.githack.com/jubaan/Project-Using-Bootstrap/master/index.html)
 
 ## Authors
 
